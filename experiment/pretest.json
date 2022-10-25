@@ -2,38 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1.The term used for spoilage of fat is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Putrification",                  
+        "b": "Esterification",                 
+        "c": "Rancidity",                  
+        "d": "Fractionation" 
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Oxidative rancidity in fats/oils is because of",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Peroxides formation",                 
+        "b": "Less mineral content",                  
+        "c": "Moisture content",                  
+        "d": "More saturated fatty acids"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "3. Which is not a type of rancidity",
+      "answers": {
+        "a": "Hydrolytic",                 
+        "b": "Oxidative",                  
+        "c": "Ketonic",                 
+        "d": "Hypertonic"   
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      
+      "correctAnswer": "d"
+      
+    },
+    {
+      "question": "4. Which of the following is termed as rancidity?",
+      "answers": {
+        "a": "Oxidation of oil present in food",                  ///// Write the option 1 inside double quotes
+        "b": "Reduction of oxygen present in food",                  ///// Write the option 2 inside double quotes
+        "c": "Oxidation of sugar present in food",                  ///// Write the option 3 inside double quotes
+        "d": "All of the above"
+      },
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "5. Rancidity can be prevented by",
+      "answers": {
+        "a": "Adding antioxidants",                  ///// Write the option 1 inside double quotes
+        "b": "Storing food away from light",                  ///// Write the option 2 inside double quotes
+        "c": "Keeping food in refrigerator",                  ///// Write the option 3 inside double quotes
+        "d": "All of these" 
+      },
+      
+      "correctAnswer": "d"
+      
     }
   ]
 }
