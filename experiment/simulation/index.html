@@ -16,7 +16,7 @@
   <main>
     <div class="super-container">
       <div class="hero">
-        <div id="expriment" style="background-image: url('./images/bg.png');">
+        <div id="expriment" style="background-image: url('./assets/bg.png');">
           <div class="step active" id="step-0">
             <p style="text-align: center; font-size: 22px; width: 100%; background: #fff;padding: 10px 0;">Make yourself
               Familiar with the instrument <small style="font-size: 14px;">(hover for more info)</small>
@@ -24,29 +24,29 @@
 
             <div class="instruments">
               <span class="tooltip element" style="top: 320px;left: 570px;">
-                <img src="./images/measuring cylinder.png" />
+                <img src="./assets/measuring cylinder.png" />
                 <span class="tooltiptext">Measuring cylinder</span>
               </span>
               <span class="tooltip element" style="top: 370px;left: 510px;">
-                <img src="./images/empty flask.png" />
+                <img src="./assets/empty flask.png" />
                 <span class="tooltiptext">Conical Flask</span>
               </span>
               <span class="tooltip element" style="left: 250px;top: 350px;">
-                <img src="./images/weighing-scale.png" />
+                <img src="./assets/weighing-scale.png" />
                 <span class="tooltiptext">Weighing Scale</span>
               </span>
 
               <span class="tooltip element" style="left: 650px;top: 350px;">
-                <img src="./images/gas stove.png" />
+                <img src="./assets/gas stove.png" />
                 <span class="tooltiptext">Burner</span>
               </span>
 
               <span class="tooltip element" style="top: 130px; left: 500px; z-index: 1;">
-                <img src="./images/burette/ff0.png" />
+                <img src="./assets/burette/ff0.png" />
                 <span class="tooltiptext">Burette</span>
               </span>
 
-              <img src="images/burette/burette stand.png" class="element" style="top: 130px; left: 470px;z-index: 0;">
+              <img src="assets/burette/burette stand.png" class="element" style="top: 130px; left: 470px;z-index: 0;">
             </div>
 
           </div>
@@ -57,19 +57,19 @@
 
             <div class="instruments step1-tools">
               <div class="element tooltip" onclick="selectSample(this, 0)" style="left: 260px;top: 280px;">
-                <img src="./imagess/Fresh Oil.png" />
+                <img src="./assets/Fresh Oil.png" />
                 <div class="tooltiptext">Select This Sample</div>
               </div>
               <div class="element tooltip" onclick="selectSample(this, 1)" style="left: 370px;top: 280px;">
-                <img src="./imagess/1passoil.png" />
+                <img src="./assets/1passoil.png" />
                 <div class="tooltiptext">Select This Sample</div>
               </div>
               <div class="element tooltip" onclick="selectSample(this, 2)" style="left: 490px;top: 280px;">
-                <img src="./imagess/2passoil.png" />
+                <img src="./assets/2passoil.png" />
                 <div class="tooltiptext">Select This Sample</div>
               </div>
               <div class="element tooltip" onclick="selectSample(this, 3)" style="left: 600px;top: 280px;">
-                <img src="./imagess/fresh ghee.png" />
+                <img src="./assets/fresh ghee.png" />
                 <div class="tooltiptext">Select This Sample</div>
               </div>
             </div>
@@ -87,14 +87,14 @@
             <div class="instruments">
               <div class="element" onclick="turnOnHotPlate()" id="hotplate1"
                 style="top: 350px;left: 373px; display: flex; justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/hot plate off.png" />
+                <img src="./assets/hot plate off.png" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 10px;">click to turn on hot
                   plate</small>
               </div>
 
               <div class="element" onclick="placeFlaskOnBurner()" id="step-1-5-flask"
                 style="top: 250px;left: 550px;display: flex; justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/ghee melting/0.png" />
+                <img src="./assets/ghee melting/0.png" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 10px;opacity: 0;">click to place
                   flask</small>
               </div>
@@ -126,25 +126,25 @@
               </div>
 
               <div class="element" id="placeflask" onclick="placeFlask()">
-                <img src="./imagess/empty flask.png" id="step-2-flask" />
+                <img src="./assets/empty flask.png" id="step-2-flask" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 10px;">
                   click to place flask</small>
               </div>
 
-              <img src="./imagess/weighing-scale.png" class="element" style="top: 350px;left: 230px;" />
+              <img src="./assets/weighing-scale.png" class="element" style="top: 350px;left: 230px;" />
             </div>
 
             <button class="element" onclick="addSample()" style="top: 430px;left: 200px; opacity: 0;">
-              <img src="./imagess/add.svg">
+              <img src="./assets/add.svg">
             </button>
 
             <button class="element" onclick="zeroReading()"
               style="top: 430px;left: 300px; opacity: 0;z-index: 5;font-size: 28px;font-weight: 400;font-family: monospace;">
-              <img src="./imagess/zero.svg">
+              <img src="./assets/zero.svg">
             </button>
 
             <button class="element" onclick="removeSample()" style="top: 430px;left: 400px; opacity: 0;">
-              <img src="./imagess/remove.svg">
+              <img src="./assets/remove.svg">
             </button>
 
             <div class="element reading-meter">
@@ -180,13 +180,13 @@
 
               <div class="element" id="measuring" onclick="measureAlcohol()"
                 style="top: 300px;left: 415px; display: flex;justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/cylinder/cylinder.png" />
+                <img src="./assets/cylinder/cylinder.png" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 5px;">click to pour
                   acid solution</small>
               </div>
 
-              <img src="./imagess/bottle.png" id="alcoholbottle" class="element" style="top: 299px;left: 620px;" />
-              <img src="./imagess/bottle cap.png" id="alcoholCabottleCap" class="element"
+              <img src="./assets/bottle.png" id="alcoholbottle" class="element" style="top: 299px;left: 620px;" />
+              <img src="./assets/bottle cap.png" id="alcoholCabottleCap" class="element"
                 style="top: 290px; left: 635px;" />
 
             </div>
@@ -212,12 +212,12 @@
 
             <div class="instruments">
               <img id="step-3-5-flask" class="element" style="top: 350px;left: 280px;" />
-              <img src="./imagess/ki solution.png" class="element" style="top: 350px;left: 550px;" />
+              <img src="./assets/ki solution.png" class="element" style="top: 350px;left: 550px;" />
 
               <div class="element" id="step-3-5-pipette" onclick="suckitandsee()"
                 style="top: 250px;left: 400px; display: flex; justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/pipette button.png" id="pipetteButton" />
-                <img src="./imagess/pipette.png" style="z-index: 2;" />
+                <img src="./assets/pipette button.png" id="pipetteButton" />
+                <img src="./assets/pipette.png" style="z-index: 2;" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 10px;">click to suck KI
                   solution</small>
               </div>
@@ -232,21 +232,21 @@
             <div class="instruments">
               <div class="element" id="step-3-9-flask" onclick="pourWater()"
                 style="top: 350px; left: 283px; display: flex;justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/flask.png" />
+                <img src="./assets/flask.png" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 5px;opacity: 0;">click to pour
                   distilled water</small>
               </div>
 
               <div class="element" id="measuring2" onclick="measureWater()"
                 style="top: 330px;left: 415px; display: flex;justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/measuring cylinder.png" />
+                <img src="./assets/measuring cylinder.png" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 5px;">click to pour
                   distilled water</small>
               </div>
 
-              <img src="./imagess/bottle cap water.png" id="waterBottleCap" class="element"
+              <img src="./assets/bottle cap water.png" id="waterBottleCap" class="element"
                 style="top:290px;left: 645px;" />
-              <img src="./imagess/Distilled Water.png" id="waterBottle" class="element"
+              <img src="./assets/Distilled Water.png" id="waterBottle" class="element"
                 style="top: 300px;left: 620px;" />
             </div>
           </div>
@@ -256,8 +256,8 @@
               with 0.1 N sodium thio-sulphate solution until yellow color is almost gone</p>
 
             <div class="instruments">
-              <img class="element" id="burettestep6" src="./imagess/burette/ff0.png" style="left: 460px; top: 100px; " />
-              <img class="element" src="./imagess/burette stand.png" style="left: 430px; top: 140px;" />
+              <img class="element" id="burettestep6" src="./assets/burette/ff0.png" style="left: 460px; top: 100px; " />
+              <img class="element" src="./assets/burette stand.png" style="left: 430px; top: 140px;" />
               <img class="element" id="step-6-flask" style="left: 446px; top: 370px;" />
 
               <button class="element"
@@ -278,7 +278,7 @@
 
             <div class="element" id="naoh" onclick="buretteFill()"
               style="top: 299px;left: 620px; display: flex;justify-content: center;align-items: center;flex-direction: column;">
-              <img src="./imagess/Na2S2O3.png" />
+              <img src="./assets/Na2S2O3.png" />
               <small style="background: #000; color:#fff; padding: 4px; margin-top: 5px;">click to pour
                 0.1N NaOH</small>
             </div>
@@ -290,14 +290,14 @@
               starch solution</p>
 
             <div class="instruments">
-              <img src="./imagess/white flask.png" id="step-8-flask" class="element" style="top: 350px;left: 275px;" />
-              <img src="./imagess/Starch Soln cap.png" id="starchCap" class="element" style="top: 335px; left: 565px;" />
-              <img src="./imagess/Starch Soln bottle.png" class="element" style="top: 350px;left: 560px;" />
+              <img src="./assets/white flask.png" id="step-8-flask" class="element" style="top: 350px;left: 275px;" />
+              <img src="./assets/Starch Soln cap.png" id="starchCap" class="element" style="top: 335px; left: 565px;" />
+              <img src="./assets/Starch Soln bottle.png" class="element" style="top: 350px;left: 560px;" />
 
               <div class="element" id="step-8-pipette" onclick="suckitandsee2()"
                 style="top: 250px;left: 400px; display: flex; justify-content: center;align-items: center;flex-direction: column;">
-                <img src="./imagess/pipette button.png" id="pipetteButton2" />
-                <img src="./imagess/pipette.png" style="z-index: 2;" />
+                <img src="./assets/pipette button.png" id="pipetteButton2" />
+                <img src="./assets/pipette.png" style="z-index: 2;" />
                 <small style="background: #000; color:#fff; padding: 4px; margin-top: 10px;">click to suck
                   solution</small>
               </div>
@@ -322,9 +322,9 @@
               until blue color just disappears</p>
 
             <div class="instruments">
-              <img class="element" id="burettestep9" src="./imagess/burette/ff16.png" style="left: 460px; top: 100px;" />
-              <img class="element" src="./imagess/burette stand.png" style="left: 430px; top: 140px;" />
-              <img class="element" id="step-9-flask" src="./imagess/blue bottle.png" style="left: 446px; top: 370px; " />
+              <img class="element" id="burettestep9" src="./assets/burette/ff16.png" style="left: 460px; top: 100px;" />
+              <img class="element" src="./assets/burette stand.png" style="left: 430px; top: 140px;" />
+              <img class="element" id="step-9-flask" src="./assets/blue bottle.png" style="left: 446px; top: 370px; " />
 
               <button class="element" style="top:250px;left: 300px;font-weight: 600; background: #000; color: #fff;"
                 onclick="openKnob1()">Open Knob</button>
@@ -386,7 +386,7 @@
             </div>
 
             <div id="forumla" style="float: right; opacity: 0; margin-right: 20px; margin-top: -65px;">
-              <img src="./imagess/formula2.png" width="300" />
+              <img src="./assets/formula2.png" width="300" />
             </div>
 
             <table style="opacity: 0; margin-top: 5px;" class="dense result-steps">
@@ -425,6 +425,7 @@
               <p style="margin: 10px;" class="answer"></p>
             </div>
           </div>
+
 
           <div class="step" id="step-8" style="background-color: #d4dbff; background-image: unset; padding: 20px;">
             <p style="font-size: 28px; text-align: left;">Inference</p>
@@ -481,4 +482,3 @@
 </body>
 
 </html>
-

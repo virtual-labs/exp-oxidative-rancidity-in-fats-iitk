@@ -2,38 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which quality index is associated with the development of rancidity in fats/oils",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Iodine value",                  
+        "b": "Saponification value",                  
+        "c": "Peroxide value",                  
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Maximum permissible limit of peroxide value in a fat/oil is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "< 10 meq/kg of sample",                  
+        "b": "< 20 meq/kg of sample",                 
+        "c": "< 30 meq/kg of sample",                  
+        "d": "< 40 meq/g of sample" 
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "3. Iodine gives……………..color with starch",
+      "answers": {
+        "a": "Orange",                  
+        "b": "Purple",                 
+        "c": "Red",                  
+        "d": "Blue" 
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      
+      "correctAnswer": "d"
+      
+    },
+    {
+      "question": "4. Which indicator is used in determination of oxidative rancidity of fats/oils",
+      "answers": {
+        "a": "Phenolphthalein",                  ///// Write the option 1 inside double quotes
+        "b": "Starch",                  ///// Write the option 2 inside double quotes
+        "c": "Methylene blue",                  ///// Write the option 3 inside double quotes
+        "d": "NaOH"   
+      },
+      
+      "correctAnswer": "b"
+      
+    },
+    {
+      "question": "5. Which of the following titration is used in estimation of peroxide value?",
+      "answers": {
+        "a": "Acid-base titration ",                  ///// Write the option 1 inside double quotes
+        "b": "Idometric titration",                  ///// Write the option 2 inside double quotes
+        "c": "Redox titration",                  ///// Write the option 3 inside double quotes
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "b"
+      
     }
   ]
 }
