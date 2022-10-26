@@ -38,9 +38,9 @@
     {
       "question": "4. Which of the following is termed as rancidity?",
       "answers": {
-        "a": "Oxidation of oil present in food",                  ///// Write the option 1 inside double quotes
-        "b": "Reduction of oxygen present in food",                  ///// Write the option 2 inside double quotes
-        "c": "Oxidation of sugar present in food",                  ///// Write the option 3 inside double quotes
+        "a": "Oxidation of oil present in food",                  
+        "b": "Reduction of oxygen present in food",                  
+        "c": "Oxidation of sugar present in food",                  
         "d": "All of the above"
       },
       
@@ -50,9 +50,9 @@
     {
       "question": "5. Rancidity can be prevented by",
       "answers": {
-        "a": "Adding antioxidants",                  ///// Write the option 1 inside double quotes
-        "b": "Storing food away from light",                  ///// Write the option 2 inside double quotes
-        "c": "Keeping food in refrigerator",                  ///// Write the option 3 inside double quotes
+        "a": "Adding antioxidants",                  
+        "b": "Storing food away from light",                 
+        "c": "Keeping food in refrigerator",                  
         "d": "All of these" 
       },
       
