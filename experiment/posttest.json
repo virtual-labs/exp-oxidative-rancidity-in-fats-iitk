@@ -38,9 +38,9 @@
     {
       "question": "4. Which indicator is used in determination of oxidative rancidity of fats/oils",
       "answers": {
-        "a": "Phenolphthalein",                  ///// Write the option 1 inside double quotes
-        "b": "Starch",                  ///// Write the option 2 inside double quotes
-        "c": "Methylene blue",                  ///// Write the option 3 inside double quotes
+        "a": "Phenolphthalein",                  
+        "b": "Starch",                 
+        "c": "Methylene blue",                  
         "d": "NaOH"   
       },
       
@@ -50,9 +50,9 @@
     {
       "question": "5. Which of the following titration is used in estimation of peroxide value?",
       "answers": {
-        "a": "Acid-base titration ",                  ///// Write the option 1 inside double quotes
-        "b": "Idometric titration",                  ///// Write the option 2 inside double quotes
-        "c": "Redox titration",                  ///// Write the option 3 inside double quotes
+        "a": "Acid-base titration ",                 
+        "b": "Idometric titration",                  
+        "c": "Redox titration",                 
         "d": "None of the above"
       },
       
