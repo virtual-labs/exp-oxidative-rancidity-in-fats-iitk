@@ -16,18 +16,17 @@ The general reaction mechanism is as follows:
 <img src="images/Formation of Peroxides.png" alt="Formation of Peroxides">
 
 
-<b>Name of Developers | <b> Prof. Kantesh Balani
+<b>Name of Developers | <b> Dr. Vivek Sachan
 :--|:--|
-<b> Institute | <b>  IIT Kanpur
-<b> Email id|     <b>  kbalani@iitk.ac.in
-<b> Department |  Materials Science and Engineering
+<b> Institute | <b>  HBTU Kanpur
+<b> Email id|     <b>  viveksachan99@gmail.com
+<b> Department |  Food Technology
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Dr. Vivek Sachan | Faculty | Food Technology | HBTU Kanpur | viveksachan99@gmail.com
-2 | Pawan Sharma | Student | Food Technology | HBTU Kanpur | pawansharmampec@gmail.com
-3 | Ayush Kumar Shakya  | Student | Food Technology | HBTU Kanpur | ayushkumar121@outlook.com
-4 | Hemant Singh | Student | Food Technology | HBTU Kanpur | singh10hemant99@gmail.com
-5 | Abhishek Mishra | Student | Food Technology | HBTU Kanpur | abhishekmishraoff73@gmail.com
+1 | Pawan Sharma | Student | Food Technology | HBTU Kanpur | pawansharmampec@gmail.com
+2 | Ayush Kumar Shakya  | Student | Food Technology | HBTU Kanpur | ayushkumar121@outlook.com
+3 | Hemant Singh | Student | Food Technology | HBTU Kanpur | singh10hemant99@gmail.com
+4 | Abhishek Mishra | Student | Food Technology | HBTU Kanpur | abhishekmishraoff73@gmail.com
