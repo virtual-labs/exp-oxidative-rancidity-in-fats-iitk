@@ -1,0 +1,63 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which quality index is associated with the development of rancidity in fats/oils",
+      "answers": {
+        "a": "Iodine value",                  
+        "b": "Saponification value",                  
+        "c": "Peroxide value",                  
+        "d": "None of the above"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. Maximum permissible limit of peroxide value in a fat/oil is",
+      "answers": {
+        "a": "< 10 meq/kg of sample",                  
+        "b": "< 20 meq/kg of sample",                 
+        "c": "< 30 meq/kg of sample",                  
+        "d": "< 40 meq/g of sample" 
+      },
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "3. Iodine gives……………..color with starch",
+      "answers": {
+        "a": "Orange",                  
+        "b": "Purple",                 
+        "c": "Red",                  
+        "d": "Blue" 
+      },
+      
+      "correctAnswer": "d"
+      
+    },
+    {
+      "question": "4. Which indicator is used in determination of oxidative rancidity of fats/oils",
+      "answers": {
+        "a": "Phenolphthalein",                  
+        "b": "Starch",                 
+        "c": "Methylene blue",                  
+        "d": "NaOH"   
+      },
+      
+      "correctAnswer": "b"
+      
+    },
+    {
+      "question": "5. Which of the following titration is used in estimation of peroxide value?",
+      "answers": {
+        "a": "Acid-base titration ",                 
+        "b": "Idometric titration",                  
+        "c": "Redox titration",                 
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "b"
+      
+    }
+  ]
+}
