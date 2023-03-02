@@ -1,5 +1,3 @@
-# Procedure
-
 <b> Materials Required</b>
 
 * Fat/oil sample
