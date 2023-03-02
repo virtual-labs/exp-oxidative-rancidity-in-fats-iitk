@@ -1,0 +1,63 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.The term used for spoilage of fat is",
+      "answers": {
+        "a": "Putrification",                  
+        "b": "Esterification",                 
+        "c": "Rancidity",                  
+        "d": "Fractionation" 
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "2. Oxidative rancidity in fats/oils is because of",
+      "answers": {
+        "a": "Peroxides formation",                 
+        "b": "Less mineral content",                  
+        "c": "Moisture content",                  
+        "d": "More saturated fatty acids"
+      },
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "3. Which is not a type of rancidity",
+      "answers": {
+        "a": "Hydrolytic",                 
+        "b": "Oxidative",                  
+        "c": "Ketonic",                 
+        "d": "Hypertonic"   
+      },
+      
+      "correctAnswer": "d"
+      
+    },
+    {
+      "question": "4. Which of the following is termed as rancidity?",
+      "answers": {
+        "a": "Oxidation of oil present in food",                  
+        "b": "Reduction of oxygen present in food",                  
+        "c": "Oxidation of sugar present in food",                  
+        "d": "All of the above"
+      },
+      
+      "correctAnswer": "a"
+      
+    },
+    {
+      "question": "5. Rancidity can be prevented by",
+      "answers": {
+        "a": "Adding antioxidants",                  
+        "b": "Storing food away from light",                 
+        "c": "Keeping food in refrigerator",                  
+        "d": "All of these" 
+      },
+      
+      "correctAnswer": "d"
+      
+    }
+  ]
+}

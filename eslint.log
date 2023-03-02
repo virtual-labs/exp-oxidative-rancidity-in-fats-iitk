@@ -1,0 +1,179 @@
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/gsap.min.js
+  10:83     warning  'exports' is not defined                                         no-undef
+  10:125    warning  'define' is not defined                                          no-undef
+  10:138    warning  'define' is not defined                                          no-undef
+  10:14192  warning  Unnecessary escape character: \+                                 no-useless-escape
+  10:14289  warning  Unnecessary escape character: \.                                 no-useless-escape
+  10:21628  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:36417  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:46032  warning  'e' is defined but never used                                    no-unused-vars
+  10:46357  warning  'e' is defined but never used                                    no-unused-vars
+  10:46360  warning  'r' is defined but never used                                    no-unused-vars
+  10:48303  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:48360  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:57184  warning  Empty block statement                                            no-empty
+  10:60246  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:64959  warning  Unnecessary escape character: \(                                 no-useless-escape
+  10:67756  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  10:67859  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/index.js
+   7:10  warning  'next' is defined but never used            no-unused-vars
+  14:10  warning  'validateanswer' is defined but never used  no-unused-vars
+  22:5   warning  'gsap' is not defined                       no-undef
+  27:10  warning  'addTask' is defined but never used         no-unused-vars
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step1.5.js
+   6:10  warning  'turnOnHotPlate' is defined but never used      no-unused-vars
+  10:5   warning  'gsap' is not defined                           no-undef
+  11:5   warning  'gsap' is not defined                           no-undef
+  14:10  warning  'placeFlaskOnBurner' is defined but never used  no-unused-vars
+  17:13  warning  'gsap' is not defined                           no-undef
+  19:24  warning  'gsap' is not defined                           no-undef
+  24:50  warning  'SteppedEase' is not defined                    no-undef
+  28:25  warning  'gsap' is not defined                           no-undef
+  30:25  warning  'task_done' is not defined                      no-undef
+  31:25  warning  'addTask' is not defined                        no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step1.js
+  17:10  warning  'selectSample' is defined but never used  no-unused-vars
+  20:9   warning  'task_done' is not defined                no-undef
+  26:13  warning  'steps' is not defined                    no-undef
+  29:9   warning  'gsap' is not defined                     no-undef
+  30:9   warning  'gsap' is not defined                     no-undef
+  31:41  warning  'Back' is not defined                     no-undef
+  40:9   warning  'addTask' is not defined                  no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step2.js
+   11:10   warning  'hoverSample' is defined but never used   no-unused-vars
+   13:20   warning  'gsap' is not defined                     no-undef
+   25:10   warning  'addSample' is defined but never used     no-unused-vars
+   26:10   warning  'task_done' is not defined                no-undef
+   35:29   warning  'gsap' is not defined                     no-undef
+   48:61   warning  'Sine' is not defined                     no-undef
+   50:33   warning  'gsap' is not defined                     no-undef
+   51:66   warning  'SteppedEase' is not defined              no-undef
+   52:99   warning  'flaskSamples' is not defined             no-undef
+   52:112  warning  'selectedSample' is not defined           no-undef
+   56:33   warning  'gsap' is not defined                     no-undef
+   57:53   warning  'SteppedEase' is not defined              no-undef
+   58:99   warning  'flaskSamples' is not defined             no-undef
+   58:112  warning  'selectedSample' is not defined           no-undef
+   70:10   warning  'removeSample' is defined but never used  no-unused-vars
+   71:10   warning  'task_done' is not defined                no-undef
+   82:10   warning  'zeroReading' is defined but never used   no-unused-vars
+   83:10   warning  'task_done' is not defined                no-undef
+   95:9    warning  'gsap' is not defined                     no-undef
+   97:17   warning  'gsap' is not defined                     no-undef
+   99:17   warning  'addTask' is not defined                  no-undef
+  104:9    warning  'task_done' is not defined                no-undef
+  107:10   warning  'placeFlask' is defined but never used    no-unused-vars
+  110:9    warning  'gsap' is not defined                     no-undef
+  112:21   warning  'gsap' is not defined                     no-undef
+  119:42   warning  'SteppedEase' is not defined              no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step3.5.js
+   3:10  warning  'suckitandsee' is defined but never used  no-unused-vars
+   5:9   warning  'gsap' is not defined                     no-undef
+   7:20  warning  'gsap' is not defined                     no-undef
+  23:9   warning  'gsap' is not defined                     no-undef
+  25:13  warning  'anim' is already defined                 no-redeclare
+  25:20  warning  'gsap' is not defined                     no-undef
+  34:13  warning  'task_done' is not defined                no-undef
+  35:13  warning  'addTask' is not defined                  no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step3.9.js
+   4:10  warning  'measureWater' is defined but never used  no-unused-vars
+  12:9   warning  'gsap' is not defined                     no-undef
+  14:20  warning  'gsap' is not defined                     no-undef
+  37:10  warning  'pourWater' is defined but never used     no-unused-vars
+  38:27  warning  'task_done' is not defined                no-undef
+  45:20  warning  'gsap' is not defined                     no-undef
+  58:21  warning  'task_done' is not defined                no-undef
+  59:21  warning  'addTask' is not defined                  no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step3.js
+   6:10   warning  'measureAlcohol' is defined but never used  no-unused-vars
+  13:9    warning  'gsap' is not defined                       no-undef
+  15:20   warning  'gsap' is not defined                       no-undef
+  26:53   warning  'Sine' is not defined                       no-undef
+  27:21   warning  'gsap' is not defined                       no-undef
+  28:54   warning  'SteppedEase' is not defined                no-undef
+  47:10   warning  'pourAlcohol' is defined but never used     no-unused-vars
+  48:29   warning  'task_done' is not defined                  no-undef
+  54:20   warning  'gsap' is not defined                       no-undef
+  64:53   warning  'Sine' is not defined                       no-undef
+  67:21   warning  'gsap' is not defined                       no-undef
+  68:54   warning  'SteppedEase' is not defined                no-undef
+  73:21   warning  'gsap' is not defined                       no-undef
+  74:54   warning  'SteppedEase' is not defined                no-undef
+  75:89   warning  'flaskSamples' is not defined               no-undef
+  75:102  warning  'selectedSample' is not defined             no-undef
+  83:21   warning  'gsap' is not defined                       no-undef
+  85:21   warning  'addTask' is not defined                    no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step5.js
+   3:10  warning  'pourPhenolphthalein' is defined but never used  no-unused-vars
+   3:30  warning  'params' is defined but never used               no-unused-vars
+  10:9   warning  'gsap' is not defined                            no-undef
+  12:20  warning  'gsap' is not defined                            no-undef
+  26:21  warning  'task_done' is not defined                       no-undef
+  28:21  warning  'addTask' is not defined                         no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step6.js
+  11:5   warning  'S1' is assigned a value but never used  no-unused-vars
+  18:10  warning  'buretteFill' is defined but never used  no-unused-vars
+  20:20  warning  'gsap' is not defined                    no-undef
+  28:21  warning  'gsap' is not defined                    no-undef
+  29:55  warning  'SteppedEase' is not defined             no-undef
+  42:10  warning  'openKnob' is defined but never used     no-unused-vars
+  56:17  warning  'gsap' is not defined                    no-undef
+  56:58  warning  'Sine' is not defined                    no-undef
+  59:47  warning  'selectedSample' is not defined          no-undef
+  74:46  warning  'selectedSample' is not defined          no-undef
+  80:10  warning  'closeKnob' is defined but never used    no-unused-vars
+  85:39  warning  'selectedSample' is not defined          no-undef
+  86:13  warning  'task_done' is not defined               no-undef
+  88:13  warning  'addTask' is not defined                 no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step8.js
+   3:10  warning  'suckitandsee2' is defined but never used  no-unused-vars
+   5:9   warning  'gsap' is not defined                      no-undef
+   7:20  warning  'gsap' is not defined                      no-undef
+  25:9   warning  'gsap' is not defined                      no-undef
+  27:13  warning  'anim' is already defined                  no-redeclare
+  27:20  warning  'gsap' is not defined                      no-undef
+  36:13  warning  'gsap' is not defined                      no-undef
+  40:13  warning  'addTask' is not defined                   no-undef
+
+/home/runner/work/exp-oxidative-rancidity-in-fats-iitk/exp-oxidative-rancidity-in-fats-iitk/experiment/simulation/scripts/step9.js
+    6:5   warning  'S2' is assigned a value but never used     no-unused-vars
+    9:10  warning  'openKnob1' is defined but never used       no-unused-vars
+   10:29  warning  'buretteFilled' is not defined              no-undef
+   23:17  warning  'gsap' is not defined                       no-undef
+   23:58  warning  'Sine' is not defined                       no-undef
+   26:30  warning  'prefferedReading' is not defined           no-undef
+   26:47  warning  'selectedSample' is not defined             no-undef
+   41:29  warning  'prefferedReading' is not defined           no-undef
+   41:46  warning  'selectedSample' is not defined             no-undef
+   47:10  warning  'closeKnob1' is defined but never used      no-unused-vars
+   52:22  warning  'prefferedReading' is not defined           no-undef
+   52:39  warning  'selectedSample' is not defined             no-undef
+   52:87  warning  'task_done' is not defined                  no-undef
+   54:13  warning  'task_done' is not defined                  no-undef
+   59:41  warning  'S1' is not defined                         no-undef
+   62:30  warning  'S1' is not defined                         no-undef
+   69:13  warning  'addTask' is not defined                    no-undef
+   76:10  warning  'toggleformula' is defined but never used   no-unused-vars
+   80:9   warning  'gsap' is not defined                       no-undef
+   82:9   warning  'gsap' is not defined                       no-undef
+   85:10  warning  'validateresult' is defined but never used  no-unused-vars
+   87:5   warning  'addTask' is not defined                    no-undef
+   97:10  warning  'showsteps' is defined but never used       no-unused-vars
+   98:5   warning  'gsap' is not defined                       no-undef
+  100:5   warning  'gsap' is not defined                       no-undef
+  101:5   warning  'gsap' is not defined                       no-undef
+
+✖ 152 problems (0 errors, 152 warnings)
+

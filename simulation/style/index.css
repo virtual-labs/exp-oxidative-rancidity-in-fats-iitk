@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+  }
+
+  /*
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }*/
+
+  .popup-question{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    z-index: 5;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+  }
+  
+  .tooltip .tooltiptext {
+    width: 120px;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 0;
+   
+    position: absolute;
+    z-index: 2;
+
+    bottom: 105%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+
+    background: rgb(69 213 177);
+    color: #fff;
+  }
+
+  body {
+    background: rgb(243, 243, 243);
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  #expriment{
+    width: 960px;
+    height: 500px;
+    margin:30px 0;
+  }
+
+  #controls {
+    display: none;
+    position: absolute;
+    margin-top: -120px;
+    left: 50px;
+  }
+
+  #controls.active{
+    display: inline-block;
+  }
+
+  button {
+    padding: 8px 20px;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+
+    cursor: pointer;
+    background: #fff;
+  }
+
+  button:hover {
+    background: #ccc;
+  }
+
+  button img {
+    width: 32px;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+
+  #stepdesc {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .step{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    display: none;
+  }
+
+
+  .step.active{
+    display: block;
+  }
+
+  .step .element{
+      position: absolute;
+  }
+
+  .instruments .element{
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .reading-meter{
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    left: 300px;
+    font-family: monospace;
+    top: 367px;
+  }
+
+  #sample-reading{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    font-family: monospace;
+  }
+
+  #placeflask{
+    flex-direction: column;
+    text-align: center;
+
+    top: 330px;
+    left: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    z-index: 3;
+  }
+
+  #beaker{
+    flex-direction: column;
+    text-align: center;
+
+    top: 180px;
+    left:170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #sidebar{
+    width: 400px;
+    height: 560px;
+    overflow-y: scroll;
+  }
+
+  .super-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  #taskslist{
+    list-style-type: none;
+  }
+
+  #taskslist li{
+    padding: 5px 0;
+    font-size: 20px;
+  }
+
+  b{
+    font-weight: 600;
+  }
+
+  .drop-step-2{
+    left: 323px;
+    top: 230px;
+  }
+
+  .drop-step-3{
+    top: 280px;
+    left: 465px;
+  }
+
+  
+  .drop-step-31{
+    top: 290px;
+    left: 335px;
+  }
+
+  .drop-step-5{
+    left: 506px;
+    top: 280px;
+  }
+
+  table, th, td {
+    border: 2px solid black;
+  }  
+
+  th, td {
+    padding: 8px 0;
+  }
+
+  table.dense, table.dense th, table.dense td{
+    border: none;
+  }
+
+  table.dense th, table.dense td{
+    padding: 2px;
+  }
+
+  .drop-step-6{
+    top: 327px;
+    left: 465px;
+  }
+
+  .potential-step {
+    display: none;
+  }
+
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.step p{
+  font-weight: 800
+}

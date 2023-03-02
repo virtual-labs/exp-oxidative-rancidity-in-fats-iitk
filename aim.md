@@ -1,0 +1,1 @@
+### This experiment aims for detection and estimation of oxidative rancidity in fats/oils. The concept of iodometric titration is applied to analyse the sample and estimate peroxide value in the fat/oil sample.
