@@ -134,21 +134,24 @@
               <img src="./assets/weighing-scale.png" class="element" style="top: 350px;left: 230px;" />
             </div>
 
-            <button class="element" onclick="addSample()" style="top: 430px;left: 200px; opacity: 0;">
+            <button class="element" onclick="addSample()" style="top: 430px;left: 186px; opacity: 0;">
               <img src="./assets/add.svg">
+              <p id="addsample" style="visibility: hidden; background-color: black; font-size: smaller; color: white; padding: 4px; font-weight: 300;">Add Sample</p>
             </button>
 
             <button class="element" onclick="zeroReading()"
-              style="top: 430px;left: 300px; opacity: 0;z-index: 5;font-size: 28px;font-weight: 400;font-family: monospace;">
+              style="top: 430px;left: 283px; opacity: 0;z-index: 5; font-weight: 400;font-family: monospace;">
               <img src="./assets/zero.svg">
+              <p id="taretozero" style="visibility: hidden; background-color: black; font-size: smaller; color: white; padding: 4px; font-weight: 300;">tare to zero</p>
             </button>
 
-            <button class="element" onclick="removeSample()" style="top: 430px;left: 400px; opacity: 0;">
+            <button class="element" onclick="removeSample()" style="top: 430px;left: 380px; opacity: 0;">
               <img src="./assets/remove.svg">
+              <p id="removesample" style="visibility: hidden; background-color: black; font-size: smaller; color: white; padding: 4px; font-weight: 300;">Remove Sample</p>
             </button>
 
             <div class="element reading-meter">
-              <div id="sample-reading">0.0</div>
+              <div id="sample-reading">0.0g</div>
             </div>
 
             <div class="popup-question question-2" style="opacity: 0;">
@@ -378,21 +381,21 @@
 
             <div class="result">
               <p>
-                FFA(%) = <input type="text" id="result-user">
+                FFA(%) = <input type="numeric" id="result-user">
                 <input type="button" value="Check" style="border: 0;padding: 5px;font-weight: 600;font-size: 18px; background-color: lightgreen;" onclick="validateresult()">
                 <input type="button" value="Formula" style="border: 0;padding: 5px;font-weight: 600;font-size: 18px; background-color: lightsalmon;" onclick="toggleformula()">
                 <span class="result-status" style="margin-top: 20px; font-weight: 600; font-size: 18px;"></span>
               </p>
             </div>
 
-            <div id="forumla" style="float: right; opacity: 0; margin-right: 20px; margin-top: -65px;">
+            <div id="forumla" style="float: right; opacity: 0; margin-right: 20px; margin-top: -5px;">
               <img src="./assets/formula2.png" width="300" />
             </div>
 
             <table style="opacity: 0; margin-top: 5px;" class="dense result-steps">
               <tr>
                 <td rowspan="2" style="font-size: 12px;font-weight: 600;">Peroxide value (mEq peroxide/kg) =</td>
-                <th style="font-size: 12px;border-bottom: 1px solid #000; width: 150px;font-weight: 600;">V x N</th>
+                <th style="font-size: 12px;border-bottom: 1px solid #000; width: 150px;font-weight: 600;">V x N x 1000</th>
               </tr>
 
               <tr>
@@ -402,7 +405,7 @@
               <tr>
                 <td rowspan="2" style="font-size: 12px;font-weight: 600;">Peroxide value (mEq peroxide/kg) =</td>
                 <th style="font-size: 12px;border-bottom: 1px solid #000;width: 150px;font-weight: 600;">
-                  <span class="observationReading"></span> x 0.1</th>
+                  <span class="observationReading"></span> x 0.1 x 1000</th>
               </tr>
 
               <tr>
@@ -433,7 +436,7 @@
             <div class="popup-question question-6" style="opacity: 0;">
               <p style="margin: 10px;">The rancid oil has the peroxide value (mEq peroxide/kg) in the range of  </p>
               <select style="margin: 10px;" class="question"
-                onchange="validateanswer('.question-6', 4); gsap.to('.inferencetext', {delay: 2.5, opacity:1});  addTask('<b>Step 10</b>Inference')">
+                onchange="validateanswer('.question-6', 1); gsap.to('.inferencetext', {delay: 2.5, opacity:1});  addTask('<b>Step 10</b>Inference')">
                 <option value="0">--Select Answer--</option>
                 <option value="1">5-10</option>
                 <option value="2">10-20</option>
@@ -443,9 +446,7 @@
               <p style="margin: 10px;" class="answer"></p>
             </div>
 
-            <p class="inferencetext" style="opacity: 0; font-size: 18px; text-align: center; margin-top: 20px;">
-              The rancid oil has the Peroxe value in the range of 30-40 mEq/kg as per FSSAI standard.<br/>
-              The peroxide value of the given sample is 9.2%. So, this sample is safe for edible purposes. 
+            <p class="inferencetext" id="inferencetext" style="opacity: 0; font-size: 18px; text-align: center; margin-top: 20px;"> 
             </p>
           </div>
 

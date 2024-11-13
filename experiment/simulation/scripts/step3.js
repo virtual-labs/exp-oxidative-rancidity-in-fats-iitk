@@ -82,7 +82,7 @@ function pourAlcohol() {
                 duration: 1, x: 0, y: 0, onComplete: () => {
                     gsap.to('.question-3', { opacity: 1 })
 
-                    addTask('<b>Step 3</b> Add 50 ml ethyl alcohol in conical flask')
+                    addTask('<b>Step 3</b> Add 30 ml acetic acid-chloroform solution in the sample flask')
                 }
             })
             .to('#step3flask small', { opacity: 0 })
