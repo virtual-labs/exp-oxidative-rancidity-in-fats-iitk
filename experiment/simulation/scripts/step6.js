@@ -1,8 +1,8 @@
 var prefferedReading = [
-    2.8,
-    5.8,
-    9.6,
-    1.2
+    0.4,
+    1.2,
+    2.4,
+    1.2,
 ]
 
 var readingTitration = 0.0
@@ -43,7 +43,7 @@ function openKnob() {
     if (handle == null && !buretteFilled) {
         handle = setInterval(() => {
             if (readingTitration < 50.0) {
-                readingTitration += 0.2
+                readingTitration += 0.1
                 document.querySelector('#readingSlider').style.width = `${100 - readingTitration * 5}%`
 
                 var drop = document.createElement("img")
@@ -56,7 +56,7 @@ function openKnob() {
                 gsap.to(drop, { y: 50, opacity: 0, ease: Sine.easeIn })
 
                 var text = ''
-                if (Math.abs(prefferedReading[selectedSample] - readingTitration) <= 0.2) {
+                if (prefferedReading[selectedSample] - readingTitration <= 0.2) {
                     text += '(Titration Completed) '
 
                     document.querySelector('#step-6-flask').src = `./assets/white flask.png`
