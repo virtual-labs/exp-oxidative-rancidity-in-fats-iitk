@@ -24,7 +24,7 @@
 9. Record the volume of sodium thiosulphate solution used.
 10. Calculate the peroxide value using the equation given below:
 
-<img src="images/Formula PV.png" alt="Formula PV">
+<img src="images/Formula PV.png" alt="Formula PV"> <br><br>
 Where,</br>
    S= volume of sodium thiosulphate used (ml)</br>
    N= Normality of sodium thiosulphate</br>
