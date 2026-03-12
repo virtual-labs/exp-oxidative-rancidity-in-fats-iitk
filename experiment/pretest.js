@@ -128,21 +128,21 @@
         a: "Oxidation of oil present in food",                  ///// Write the option 1 inside double quotes
         b: "Reduction of oxygen present in food",                  ///// Write the option 2 inside double quotes
         c: "Oxidation of sugar present in food",                  ///// Write the option 3 inside double quotes
-        d: "All of the above"                   ///// Write the option 4 inside double quotes
+        d: "Hydrolysis of carbohydrates"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     ///// this line
 
     {
-      question: "Rancidity can be prevented by",  ///// Write the question inside double quotes
+      question: "Rancidity can be effectively prevented by:",  ///// Write the question inside double quotes
       answers: {
-        a: "Adding antioxidants",                  ///// Write the option 1 inside double quotes
-        b: "Storing food away from light",                  ///// Write the option 2 inside double quotes
-        c: "Keeping food in refrigerator",                  ///// Write the option 3 inside double quotes
-        d: "All of these"                   ///// Write the option 4 inside double quotes
+        a: "Adding antioxidants to the oil",                  ///// Write the option 1 inside double quotes
+        b: "Increasing exposure to air",                  ///// Write the option 2 inside double quotes
+        c: "Storing oil at high temperature",                  ///// Write the option 3 inside double quotes
+        d: "Adding excess moisture"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "d"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     ///// this line
 
