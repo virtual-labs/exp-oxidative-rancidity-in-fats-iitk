@@ -90,12 +90,12 @@
 
   const myQuestions = [
     {
-      question: "Which quality index is associated with the development of rancidity in fats/oils",  ///// Write the question inside double quotes
+      question: "Which quality index is associated with the development of rancidity in fats/oils?",  ///// Write the question inside double quotes
       answers: {
         a: "Iodine value",                  ///// Write the option 1 inside double quotes
         b: "Saponification value",                  ///// Write the option 2 inside double quotes
         c: "Peroxide value",                  ///// Write the option 3 inside double quotes
-        d: "None of the above"                   ///// Write the option 4 inside double quotes
+        d: "Reichert–Meissl value"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
@@ -134,12 +134,12 @@
     },                                  ///// To add more questions, copy the section below 
 
     {
-      question: "Which of the following titration is used in estimation of peroxide value?",  ///// Write the question inside double quotes
+      question: "Which type of titration is used in the estimation of peroxide value?",  ///// Write the question inside double quotes
       answers: {
         a: "Acid-base titration ",                  ///// Write the option 1 inside double quotes
         b: "Idometric titration",                  ///// Write the option 2 inside double quotes
-        c: "Redox titration",                  ///// Write the option 3 inside double quotes
-        d: "None of the above"                   ///// Write the option 4 inside double quotes
+        c: "Complexometric titration",                  ///// Write the option 3 inside double quotes
+        d: "Precipitation titration"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },    
