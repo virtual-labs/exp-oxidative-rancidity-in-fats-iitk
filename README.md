@@ -13,8 +13,7 @@ In oxidative rancidity oxygen is taken up by the fat with the formation of perox
 
 Peroxide value is defined as the milliequivalents of peroxide per kilogram of fat, as determined in a titration procedure to measure the amount of peroxide or hydroperoxide groups. The peroxides present are determined by titration against thiosulphate in the presence of KI. Starch is used as indicator. In general fresh oils have a peroxide value of <10 mEq/Kg while peroxide values in the range of 30-40 mEq/Kg are generally associated with a rancid taste.
 The general reaction mechanism is as follows:
-<img src="images/Formation of Peroxides.png" alt="Formation of Peroxides">
-
+<!--<img src= "images/Formation of Peroxides.png" alt="Formation of Peroxides">-->
 
 <b>Name of Developers | <b> Dr. Vivek Sachan
 :--|:--|
