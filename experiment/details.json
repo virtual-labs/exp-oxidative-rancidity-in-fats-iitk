@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Detection and estimation of oxidative rancidity in fats/oils",     
+			"Lab": "FOOD CHEMISTRY LAB",               
+			"Discipline": "Food Technology",				 
+			"Technology": "HTML,JS,CSS"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "VIVEK KUMAR",         
+      "Institute": "Harcourt Butler Technical University, Kanpur",         
+      "InstituteAcronym": "HBTU, Kanpur"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Pawan Sharma",             
+      			"Institute": "Harcourt Butler Technical University, Kanpur",         
+      			"InstituteAcronym": "HBTU, Kanpur"       
+       },
+
+       {       
+			"Contributer": "Ayush Kumar Shakya",             
+      			"Institute": "Harcourt Butler Technical University, Kanpur",         
+      			"InstituteAcronym": "HBTU, Kanpur"        
+       },
+
+       {       
+			"Contributer": "HEMANT SINGH",             
+      			"Institute": "Harcourt Butler Technical University, Kanpur",         
+      			"InstituteAcronym": "HBTU, Kanpur"       
+       },
+
+       {       
+			"Contributer": "ABHISHEK MISHRA",             
+      			"Institute": "Harcourt Butler Technical University, Kanpur",         
+      			"InstituteAcronym": "HBTU, Kanpur"      
+       }
+   ]
+
+}
