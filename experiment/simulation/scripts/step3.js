@@ -6,7 +6,7 @@ var frameObject2 = { i: 1 }
 function measureAlcohol() {
     if (!alcoholMeasured) {
         var drop = document.createElement("img")
-        drop.src = './assets/drop.png'
+        drop.src = './images/drop.png'
         drop.classList.add('element', 'drop-step-3')
         drop.style.zIndex = 5
 
@@ -26,7 +26,7 @@ function measureAlcohol() {
                 repeat: 4, y: 50, opacity: 0, ease: Sine.easeIn, onStart: () => {
                     gsap.to(frameObject1, {
                         duration: 2, i: 5, ease: new SteppedEase.config(4), onUpdate: () => {
-                            document.querySelector('#measuring img').src = `./assets/cylinder/c${frameObject1.i}.png`
+                            document.querySelector('#measuring img').src = `./images/cylinder/c${frameObject1.i}.png`
                         }
                     })
                 }
@@ -47,7 +47,7 @@ function measureAlcohol() {
 function pourAlcohol() {
     if (alcoholMeasured && !task_done) {
         var drop = document.createElement("img")
-        drop.src = './assets/drop.png'
+        drop.src = './images/drop.png'
         drop.classList.add('element', 'drop-step-31')
         drop.style.zIndex = 5
 
@@ -66,13 +66,13 @@ function pourAlcohol() {
 
                     gsap.to(frameObject1, {
                         duration: 2, i: 1, ease: new SteppedEase.config(4), onUpdate: () => {
-                            document.querySelector('#measuring img').src = `./assets/cylinder/c${frameObject1.i}.png`
+                            document.querySelector('#measuring img').src = `./images/cylinder/c${frameObject1.i}.png`
                         }
                     })
 
                     gsap.to(frameObject2, {
                         duration: 2, i: 2, ease: new SteppedEase.config(1), onUpdate: () => {
-                            document.querySelector('#step3flask img').src = `./assets/${flaskSamples[selectedSample]}/alcohol/${frameObject2.i}.png`
+                            document.querySelector('#step3flask img').src = `./images/${flaskSamples[selectedSample]}/alcohol/${frameObject2.i}.png`
                         }
                     })
                 }

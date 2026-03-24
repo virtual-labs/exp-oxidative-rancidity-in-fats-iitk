@@ -5,7 +5,7 @@ function measureWater() {
     if (!waterMeasured) {
 
         var drop = document.createElement("img")
-        drop.src = './assets/drop.png'
+        drop.src = './images/drop.png'
         drop.classList.add('element', 'drop-step-3')
         drop.style.zIndex = 5
 
@@ -38,7 +38,7 @@ function pourWater() {
     if (waterMeasured && !task_done) {
 
         var drop = document.createElement("img")
-        drop.src = './assets/drop.png'
+        drop.src = './images/drop.png'
         drop.classList.add('element', 'drop-step-31')
         drop.style.zIndex = 5
 

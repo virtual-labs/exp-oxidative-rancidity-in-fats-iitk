@@ -4,7 +4,7 @@ var flaskPlacedOnBurner = false
 var frameObject6 = { i: 0 }
 
 function turnOnHotPlate() {
-    document.querySelector('#hotplate1 img').src = './assets/hot plate on.png'
+    document.querySelector('#hotplate1 img').src = './images/hot plate on.png'
     hotplateon = true
 
     gsap.to('#hotplate1 small', { opacity: 0 })
@@ -22,7 +22,7 @@ function placeFlaskOnBurner() {
                 .to('#step-1-5-flask', { duration: 1, y: -40 })
                 .to(frameObject6, {
                     duration: 4, i: 2, ease: new SteppedEase.config(2), onUpdate: () => {
-                        document.querySelector('#step-1-5-flask img').src = `./assets/ghee melting/${frameObject6.i}.png`
+                        document.querySelector('#step-1-5-flask img').src = `./images/ghee melting/${frameObject6.i}.png`
                     },
                     onComplete: () => {
                         gsap.to('.question-1', { opacity: 1 })
