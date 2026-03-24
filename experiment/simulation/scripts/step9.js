@@ -18,7 +18,7 @@ function openKnob1() {
         }%`;
 
         var drop = document.createElement("img");
-        drop.src = "./assets/drop.png";
+        drop.src = "./images/drop.png";
         drop.classList.add("element", "drop-step-6");
         drop.style.zIndex = 5;
 
@@ -32,7 +32,7 @@ function openKnob1() {
 
           document.querySelector(
             "#step-9-flask"
-          ).src = `./assets/white flask.png`;
+          ).src = `./images/white flask.png`;
         }
 
         if (currentFrame1 > 0) {
@@ -40,7 +40,7 @@ function openKnob1() {
 
           document.querySelector(
             "#burettestep6"
-          ).src = `./assets/burette/ff${currentFrame1}.png`;
+          ).src = `./images/burette/ff${currentFrame1}.png`;
         }
 
         text += `${readingTitration1.toPrecision(2)} ml`;

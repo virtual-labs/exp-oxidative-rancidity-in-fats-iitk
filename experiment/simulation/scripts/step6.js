@@ -27,7 +27,7 @@ function buretteFill() {
                 duration: 2, rotation: -20, onComplete: () => {
                     gsap.to(frameObject5, {
                         duration: 4, i: 16, ease: new SteppedEase.config(16), onUpdate: () => {
-                            document.querySelector('#burettestep6').src = `./assets/burette/ff${frameObject5.i}.png`
+                            document.querySelector('#burettestep6').src = `./images/burette/ff${frameObject5.i}.png`
                         }
                     })
                 }
@@ -47,7 +47,7 @@ function openKnob() {
                 document.querySelector('#readingSlider').style.width = `${100 - readingTitration * 5}%`
 
                 var drop = document.createElement("img")
-                drop.src = './assets/drop.png'
+                drop.src = './images/drop.png'
                 drop.classList.add('element', 'drop-step-6')
                 drop.style.zIndex = 5
 
@@ -59,13 +59,13 @@ function openKnob() {
                 if (prefferedReading[selectedSample] - readingTitration <= 0.2) {
                     text += '(Titration Completed) '
 
-                    document.querySelector('#step-6-flask').src = `./assets/white flask.png`
+                    document.querySelector('#step-6-flask').src = `./images/white flask.png`
                 }
 
                 if (currentFrame > 0) {
                     currentFrame--
 
-                    document.querySelector('#burettestep6').src = `./assets/burette/ff${currentFrame}.png`
+                    document.querySelector('#burettestep6').src = `./images/burette/ff${currentFrame}.png`
                 }
 
                 text += `${readingTitration.toPrecision(2)} ml`

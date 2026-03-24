@@ -35,7 +35,7 @@ function suckitandsee2() {
         .to('#step-8-pipette', {duration: 1, x: 0, y: 0, onComplete: () => {
             gsap.to('.question-4', { opacity: 1 })
 
-            document.querySelector('#step-8-flask').src = './assets/blue bottle.png'
+            document.querySelector('#step-8-flask').src = './images/blue bottle.png'
 
             addTask('<b>Step 7</b>Add 0.5 ml 1% starch solution')
         }})
