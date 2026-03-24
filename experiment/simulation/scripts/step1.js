@@ -1,8 +1,8 @@
 var sampleImages = [
-  "./assets/Fresh Oil.png",
-  "./assets/1passoil.png",
-  "./assets/2passoil.png",
-  "./assets/fresh ghee.png",
+  "./images/Fresh Oil.png",
+  "./images/1passoil.png",
+  "./images/2passoil.png",
+  "./images/fresh ghee.png",
 ];
 
 var flaskSamples = ["Fresh Oil", "1 pass oil", "2 pass oil", "3 pass oil"];
@@ -31,16 +31,16 @@ function selectSample(sender, id) {
     document.querySelector("#sampleimage img").src = sampleImages[id];
     document.querySelector(
       "#step3flask img"
-    ).src = `./assets/${flaskSamples[id]}/3.png`;
+    ).src = `./images/${flaskSamples[id]}/3.png`;
     document.querySelector(
       "#step-3-5-flask"
-    ).src = `./assets/${flaskSamples[id]}/alcohol/2.png`;
+    ).src = `./images/${flaskSamples[id]}/alcohol/2.png`;
     document.querySelector(
       "#step-3-9-flask img"
-    ).src = `./assets/${flaskSamples[id]}/alcohol/2.png`;
+    ).src = `./images/${flaskSamples[id]}/alcohol/2.png`;
     document.querySelector(
       "#step-6-flask"
-    ).src = `./assets/${flaskSamples[id]}/alcohol/2.png`;
+    ).src = `./images/${flaskSamples[id]}/alcohol/2.png`;
     document.querySelector(
       "#observationSample"
     ).innerHTML = `${flaskSamples[id]}`;

@@ -33,7 +33,7 @@ function addSample() {
     if (flaskAdded && !animating && sampleHovering) {
       if (reading < 10.0) {
         var drop = document.createElement("img");
-        drop.src = "./assets/drop.png";
+        drop.src = "./images/drop.png";
         drop.classList.add("element", "drop-step-2");
         drop.style.zIndex = 5;
 
@@ -65,7 +65,7 @@ function addSample() {
                   onUpdate: () => {
                     document.querySelector(
                       "#step-2-flask"
-                    ).src = `./assets/${flaskSamples[selectedSample]}/${frameObject.i}.png`;
+                    ).src = `./images/${flaskSamples[selectedSample]}/${frameObject.i}.png`;
                   },
                 });
               } else if (frameObject.i == 2) {
@@ -75,7 +75,7 @@ function addSample() {
                   onUpdate: () => {
                     document.querySelector(
                       "#step-2-flask"
-                    ).src = `./assets/${flaskSamples[selectedSample]}/${frameObject.i}.png`;
+                    ).src = `./images/${flaskSamples[selectedSample]}/${frameObject.i}.png`;
                   },
                 });
               }

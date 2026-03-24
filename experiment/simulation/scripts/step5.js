@@ -3,7 +3,7 @@ var poured = false
 function pourPhenolphthalein(params) {
     if(!poured)  {
         var drop = document.createElement("img")
-        drop.src = './assets/pink drop.png'
+        drop.src = './images/pink drop.png'
         drop.classList.add('element', 'drop-step-5')
         drop.style.zIndex = 5
 
